@@ -15,3 +15,9 @@ Using this feature is simple. It’s written in **Google Colab**, so all you nee
 There’s no need to install anything, but you will need to set up **Google Colab**. 
 
 Also, note that I wrote the authentication tokens, API keys, and an API secret from my account at the top. If they expire or do not work, you’ll need to sign in to the **Amadeus API** and **Beacon Currency API** to get your own authentication tokens, API keys, and secrets. The links to the appropriate webpages are included in the **Google Colab** document. In Google Colab, add Amadeus API key as "Amadeus"; add Amadeus secret key as "AmadeusSecret"; and add Beacon Currency API key as "CurrencyBeacon". 
+
+For testing, you may use my keys below.
+
+# CurrencyBeacon = "pwahYg9b6bnequhzEK0qgb1ovob89Un3"
+# Amadeus = "GWSN8cJGYUx3Qpf6EnVSJQ0EFKbCorIy"
+# AmadeusSecret = "vArB9kLtJsIqOAUz"
