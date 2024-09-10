@@ -9,7 +9,7 @@ The user can input the city into the program and get an estimated budget for hot
 I chose these APIs mainly because they’re free and easy to use. The **Amadeus API** offers various endpoints and other services, which means there’s potential for adding more features in the future. The **Beacon Currency API** has lenient restrictions on usage and quota limits, so it’s been simple to work with.
 
 ## How to Use
-Using this feature is simple. It’s written in **Google Colab**, so all you need to do is run the code blocks from top to bottom, one by one. **Please do not skip any code blocks**.
+Using this feature is simple. It’s written in **Google Colab**, so all you need to do is run the code blocks from top to bottom, one by one. **Please do not skip any code blocks**. You will have to get API keys, secret keys and authentication token, which is discussed in the next section.
 
 ## Prerequisites and Setup
 There’s no need to install anything, but you will need to set up **Google Colab**. 
