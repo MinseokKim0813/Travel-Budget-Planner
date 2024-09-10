@@ -1,14 +1,14 @@
 # Travel Budget Planner
 
 ## Description
-It is a data feature that combines two APIs: **Beacon Currency** and **Amadeus**. It was designed for people who are planning to travel to another country. The purpose is to help them plan the budget for traveling to a specific city in the local currency.
+This feature integrates two APIs: **Beacon Currency** and **Amadeus**, designed to assist travelers in planning their trip budgets in the local currency of their destination. The tool allows users to input a city and receive an estimated budget for hotel costs in that city.
 
-The user can input the city into the program and get the estimated budget for hotel costs in the city. Here is how it works: using the **Amadeus API**, it gets the hotel offers from the API and calculates the average hotel cost. The user can adjust the check-in date, number of rooms, and number of adults. Then, with the calculated estimated cost for the hotel, the program uses the **Beacon Currency API** to convert that cost into the desired currency. The user can set the currency as well.
+Here’s how it works: the **Amadeus API** retrieves hotel offers based on the user's specified city, check-in date, number of rooms, and number of adults. It then calculates the average hotel cost. Once the hotel cost is estimated, the **Beacon Currency API** converts it into the desired currency, which the user can also set. 
 
-These two APIs were chosen mainly because they were free. Plus, the **Amadeus API** supports various endpoints and other services, so in the future, it could also develop additional features. The **Beacon Currency API** has lenient restrictions on API usage and limit quotas, so it was easy to use.
+These APIs were chosen because they are free, easy to use, and flexible. The **Amadeus API** offers various endpoints and services, providing potential for future feature development. The **Beacon Currency API** was selected for its lenient usage restrictions and quota limits, making it ideal for frequent API calls.
 
 ## How to Use
-How to use the data feature is simple. It was written in **Google Colab**, so the user simply needs to run the code blocks from top to bottom, one by one. **Please do not skip any code blocks.**
+Using this feature is straightforward. It was developed in **Google Colab**, so simply run the code blocks from top to bottom in sequence. **Make sure not to skip any code blocks.**
 
 ## Prerequisites and Setup
-For the prerequisites or setup, there is no need to install anything except for setting up Google Colab.
+There are no installations required. Simply set up **Google Colab**. 
