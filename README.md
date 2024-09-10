@@ -1,14 +1,16 @@
 # Travel Budget Planner
 
 ## Description
-This feature integrates two APIs: **Beacon Currency** and **Amadeus**, designed to assist travelers in planning their trip budgets in the local currency of their destination. The tool allows users to input a city and receive an estimated budget for hotel costs in that city.
+This data feature combines two APIs: **Beacon Currency** and **Amadeus**. It’s designed for people planning to travel to another country. The goal is to help them plan their travel budget in the local currency for a specific city.
 
-Here’s how it works: the **Amadeus API** retrieves hotel offers based on the user's specified city, check-in date, number of rooms, and number of adults. It then calculates the average hotel cost. Once the hotel cost is estimated, the **Beacon Currency API** converts it into the desired currency, which the user can also set. 
+The user can input the city into the program and get an estimated budget for hotel costs in that city. Here’s how it works: using the **Amadeus API**, the program retrieves hotel offers and calculates the average cost of a hotel stay. The user can adjust the check-in date, number of rooms, and number of adults. Then, the program uses the **Beacon Currency API** to convert the estimated hotel cost into the desired currency, which the user can also set.
 
-These APIs were chosen because they are free, easy to use, and flexible. The **Amadeus API** offers various endpoints and services, providing potential for future feature development. The **Beacon Currency API** was selected for its lenient usage restrictions and quota limits, making it ideal for frequent API calls.
+I chose these APIs mainly because they’re free and easy to use. The **Amadeus API** offers various endpoints and other services, which means there’s potential for adding more features in the future. The **Beacon Currency API** has lenient restrictions on usage and quota limits, so it’s been simple to work with.
 
 ## How to Use
-Using this feature is straightforward. It was developed in **Google Colab**, so simply run the code blocks from top to bottom in sequence. **Make sure not to skip any code blocks.**
+Using this feature is simple. It’s written in **Google Colab**, so all you need to do is run the code blocks from top to bottom, one by one. **Please do not skip any code blocks**.
 
 ## Prerequisites and Setup
-There are no installations required. Simply set up **Google Colab**. 
+There’s no need to install anything, but you will need to set up **Google Colab**. 
+
+Also, note that the feature uses authentication tokens, API keys, and an API secret from my account. If they expire, you’ll need to sign in to the **Amadeus API** and **Beacon Currency API** to get your own authentication tokens, API keys, and secrets. The links to the appropriate webpages are included in the **Google Colab** document.
